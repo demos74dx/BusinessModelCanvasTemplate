@@ -1,6 +1,9 @@
 BODY {font-family: 'Headland One', serif;}
 
-H1 {font-weight: 900;}
+H1 {
+	font-weight: 900;
+	float: left;
+}
 
 #bizcanvas {
   border: 3px solid black;
@@ -14,8 +17,18 @@ H1 {font-weight: 900;}
   padding: 6px;
 }
 
+header {
+  clear: both;
+}
 
-#bizcanvas H4 {
+.author {
+	float:left;
+	color: grey;
+	padding-top: 18px;
+	padding-left: 10px;
+}
+
+ #bizcanvas H4 {
   font-weight: 700;
   font-size: 1em;
 }
